@@ -1,4 +1,4 @@
 1. Cách đăng 1 trang web lên gitpage
-- B1: push code lên git
+- B1: push code lên git (Xem 3 của git tutorial)
 - B2: Vào setting --> page --> Source: none --> master
 - B3: Copy link bên trên Source và đợi link đó màu xanh lá thì đã thành công và có thể lấy link đó xem web của mình
