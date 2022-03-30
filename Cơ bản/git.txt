@@ -29,6 +29,7 @@
 + TH1: Nếu vào git bash lần đầu tiên thì nhập lệnh:
     - git config --global user.email "email-github": config email github
     - git config --global user.name "github-name" : config name github
+    - Sau bước này nó bắt đăng nhập hay gì đó thì làm theo nó để xong bước này nhá :v
 + TH2: Vào nhiều lần thì ko cần config email và name
 - B3: Khởi tạo file .git bằng git init
 - B4: Add code bằng lệnh git add
