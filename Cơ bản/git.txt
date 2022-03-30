@@ -1,0 +1,21 @@
+1. Git tutorial
+- git config --global user.email "email-github" : config email github
+- git config --global user.name "github-name" : config name github
+- git init: Khởi tạo file .git
+- git add . : Thêm vào repository
+- git commit -m "..." : commit file đã add và repository
+- git status: Hiển thị danh sách file đã được commit
+- git remote add origin https://........ :thêm remote 
+- git push origin master: Đẩy file lên repository
+- git remote -v :xem remote
+- git clone ...: clone lại 1 repository
+- git pull origin master: Kéo dữ liệu từ file git về máy
+
+2. git branch
+2.1. Định nghĩa: Là các nhánh code
+2.2. Các câu lệnh liên quan
+- git checkout -b <branch-name> : Tạo 1 branch
+- git checkout <branch-name> : chuyển branch này sang branch khác
+- git branch: liệt kê các branch
+- git branch -d <branch-name> : Xóa branch
+- git merge <branch-name> : merge(ghép) 1 branch vào 1 branch đang hoạt động
