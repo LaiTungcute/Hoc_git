@@ -1,8 +1,11 @@
 1. Git tutorial
+1.1. Link tải git bash: https://git-scm.com/downloads
+1.2. Link trang chủ của git: https://github.com/
+1.3. Các lệnh cơ bản
 - git config --global user.email "email-github" : config email github
 - git config --global user.name "github-name" : config name github
 - git init: Khởi tạo file .git
-- git add . : Thêm vào repository
+- git add . : Thêm tất cả file vào repository, nếu muốn thêm 1 file riêng lẻ thì dùng git add <tên file>
 - git commit -m "..." : commit file đã add và repository
 - git status: Hiển thị danh sách file đã được commit
 - git remote add origin https://........ :thêm remote 
@@ -19,3 +22,20 @@
 - git branch: liệt kê các branch
 - git branch -d <branch-name> : Xóa branch
 - git merge <branch-name> : merge(ghép) 1 branch vào 1 branch đang hoạt động
+
+3. Cách push code lên git
+- B1: Tạo 1 repository trên trang chủ
+- B2: Vào foder cần push, chuột phải chọn git bash
++ TH1: Nếu vào git bash lần đầu tiên thì nhập lệnh:
+    - git config --global user.email "email-github": config email github
+    - git config --global user.name "github-name" : config name github
++ TH2: Vào nhiều lần thì ko cần config email và name
+- B3: Khởi tạo file .git bằng git init
+- B4: Add code bằng lệnh git add
+- B5: commit code bằng lệnh git commit -m "<comment nào đó>"
+- B6(Mình thấy ko cần thiết lắm): Kiểm tra trạng thái của file bằng git status
+- B7: remote bằng lệnh git remote add origin http://...
+- B8: push code lên repository bằng lệnh git push origin master
+- B9: Kiểm tra repository
+    + Nếu lỗi thì làm lại từ B1 hoặc B2
+    + TH còn lại thì đã push code thành công
